@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes/pull/1)
+- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes-app/pull/2)
 
 ### Setup
 
