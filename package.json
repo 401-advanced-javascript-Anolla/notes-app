@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "minimist": "^1.2.5"
   },
   "devDependencies": {
+    "eslint": "^7.0.0",
     "jest": "^26.0.1"
   }
 }

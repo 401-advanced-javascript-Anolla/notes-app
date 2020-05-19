@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes/pull/1)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes-app/pull/1#partial-pull-merging)
+- [ci/cd](https://github.com/401-advanced-javascript-Anolla/notes-app/runs/688020546) (GitHub Actions)
 
 ### Setup
 

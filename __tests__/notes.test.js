@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const Note = require('../lib/notes.js');
 
