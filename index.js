@@ -7,7 +7,7 @@ const Note=require('./lib/notes')
 let NoteObj=new Input()
 
 let createNote=new Note()
-createNote.execute(NoteObj)
+// createNote.execute(NoteObj)
 
 NoteObj.valid() ? createNote.execute(NoteObj) : help();
 
