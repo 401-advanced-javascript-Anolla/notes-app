@@ -1,19 +1,29 @@
 'use strict';
 
+require('dotenv').config();
 const Input = require('./lib/input');
 
 const Note=require('./lib/notes');
 
+
 let NoteObj=new Input();
 
 let createNote=new Note();
-// createNote.execute(NoteObj)
+const mongoose = require('mongoose');
 
-NoteObj.valid() ? createNote.execute(NoteObj) : help();
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+createNote.execute(NoteObj);
 
-function help() {
-  console.log(`
-    APP USAGE: -a <your note goes here> OR --add <your note goes here>
-    `);
-  process.exit();
-}
+// NoteObj.valid() ? createNote.execute(NoteObj).then(mongoose.disconnect) : help();
+
+
+
+// function help() {
+//   console.log(`
+//     APP USAGE: -a <your note goes here> OR --add <your note goes here>
+//     `);
+//   process.exit();
+// }
