@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes-app/pull/3#partial-pull-merging)
-- [ci/cd](https://github.com/401-advanced-javascript-Anolla/notes-app/runs/694365082) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Anolla/notes-app/pull/4)
+- [ci/cd](https://github.com/401-advanced-javascript-Anolla/notes-app/runs/694387426) (GitHub Actions)
 
 
 #### `.env` requirements (where applicable)
