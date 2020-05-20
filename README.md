@@ -1,4 +1,4 @@
-# LAB - Class 02
+# LAB - Class 03
 
 ## Project: Notesy
 
@@ -16,8 +16,7 @@
 
 #### How to initialize/run your application (where applicable)
 
-- -a <your note goes here> OR --add <your note goes here>
-
+- -a \<your note goes here\> OR --add \<your note goes here\>
 
 #### Tests
 
