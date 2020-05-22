@@ -10,16 +10,19 @@ minimist.mockImplementation(() => {
 });
 
 describe('valid()', () => {
+
   it('Given an invalid input', () => {
     const newInstance = new Input();
     newInstance.action = undefined;
-    newInstance.payload = undefined;
+    newInstance.actionTxt = undefined;
     expect(newInstance.valid()).toBeFalsy();
   });
+
   it('Given a valid input', () => {
     const newInstance = new Input();
-    newInstance.payload = 'My note';
+    newInstance.actionTxt = 'My note';
     newInstance.action = 'add' || 'a';
     expect(newInstance.valid()).toBeTruthy();
   });
+
 });
