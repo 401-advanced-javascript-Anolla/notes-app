@@ -1,8 +1,8 @@
-const Input = require('./lib/input')
+const Input = require('./lib/input');
 
-const Note=require('./lib/notes')
+const Note=require('./lib/notes');
 
-let NoteObj=new Input()
+let NoteObj=new Input();
 
-let createNote=new Note()
-createNote.execute(NoteObj)
+let createNote=new Note();
+createNote.execute(NoteObj);
