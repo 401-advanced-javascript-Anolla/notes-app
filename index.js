@@ -29,7 +29,10 @@ else if ((noteObject.action === 'add' || noteObject.action === 'a')) {
 
 function help() {
   console.log(`
-    APP USAGE: -a <your note goes here> OR --add <your note goes here>
+    APP USAGE:
+    node index.js -a <your note goes here> --category <choose a category>
+    OR
+    node index.js --add <your note goes here> --category <choose a category>
     `);
   process.exit();
 }
