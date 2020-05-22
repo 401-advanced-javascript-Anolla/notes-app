@@ -16,7 +16,7 @@
 
 #### How to initialize/run your application (where applicable)
 
-- -a \<your note goes here\> OR --add \<your note goes here\>
+- `node index.js -a <your note goes here> --category "choose a category" OR node index.js --add <your note goes here> --category "choose a category"`
 
 #### Tests
 

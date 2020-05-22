@@ -22,7 +22,7 @@ if ((noteObject.action === 'list')) {
 else if ((noteObject.action === 'delete')) {
   noteObject.valid() ? note.delete(noteObject) : help();
 }
-else if ((noteObject.action === 'add' || noteObject.action === 'add')) {
+else if ((noteObject.action === 'add' || noteObject.action === 'a')) {
   noteObject.valid() ? note.add(noteObject).then(mongoose.disconnect) : help();
 }
 
