@@ -12,7 +12,7 @@ describe('Note Module', () => {
   });
   it('If the command (add) and data (the note) were both valid', () => {
     const note = new Note();
-    note.execute({ action: 'a', payload: 'User"s Note' });
+    note.execute({ action: 'a', actionTxt: 'User"s Note' });
     expect(console.log).toHaveBeenCalled();
   });
 });
