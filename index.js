@@ -22,7 +22,7 @@ if ((noteObject.action === 'list')) {
   noteObject.valid() ? note.list(noteObject).then(mongoose.disconnect) : help();
 }
 else if ((noteObject.action === 'delete')) {
-  console.log('Please provide an id of the required item so it can be deleted');
+//   console.log('Please provide an id of the required item so it can be deleted');
   noteObject.valid() ? note.delete(noteObject) : help();
 }
 else if ((noteObject.action === 'add' || noteObject.action === 'a')) {
